@@ -12,6 +12,9 @@ updates:
     labels:
       - "dependabot: pip"
       - "dependabot: version-bumped"
+    # This has no effect. Dependabot still upgrades the python-versions to "~3.11"
+    # ignore:
+    #   dependency-name: "python-versions"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
