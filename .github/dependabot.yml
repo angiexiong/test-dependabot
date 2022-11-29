@@ -12,11 +12,3 @@ updates:
     labels:
       - "dependabot: pip"
       - "dependabot: version-bumped"
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "daily"
-      time: "22:00"
-    labels:
-      - "dependabot: github-actions"
-      - "dependabot: version-bumped"
