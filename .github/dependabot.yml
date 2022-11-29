@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # Handles Poetry
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "22:00"
+    allow:
+      - dependency-name: "*"
+        dependency-type: "all"
+    labels:
+      - "dependabot: pip"
+      - "dependabot: version-bumped"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "22:00"
+    labels:
+      - "dependabot: github-actions"
+      - "dependabot: version-bumped"
