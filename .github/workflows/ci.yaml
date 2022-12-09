@@ -35,7 +35,7 @@ jobs:
           python-version: ${{ env.BUILD_PYTHON_VERSION }}
           cache: poetry
       - name: Install dependencies
-        run: | 
+        run: |
           poetry install
         
       - name: Run linting
