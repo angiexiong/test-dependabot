@@ -7,12 +7,11 @@ readme = "README.md"
 packages = [{include = "test_dependabot"}]
 
 [tool.poetry.dependencies]
-# Dependabot will update the version to ~3.11
 python = "^3.8"
 
 
 [tool.poetry.group.dev.dependencies]
-pylint = "^2.14.0"
+pylint = "=2.14.0"
 pretend-private-package = "^0.2.1"
 
 
