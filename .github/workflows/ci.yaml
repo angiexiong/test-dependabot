@@ -3,6 +3,23 @@ on:
   push
 
 jobs:
+  # dependabot-approve:
+  #   if: github.actor == 'dependabot[bot]' && github.event_name == 'pull_request'
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     # Detect that the PR author is dependabot and auto approve
+  #     - name: Checkout
+  #       uses: actions/checkout@v3
+  #     - name: Dependabot auto approve and merge once build is clean
+  #       env:
+  #         # The built-in secrets.GITHUB_TOKEN token does not allow PRs to be approved,
+  #         # so we created a Personal Access Token and use that with the gh CLI
+  #         # via the below env variable
+  #         GH_TOKEN: ${{ secrets.GIT_ACCESS_TOKEN }}
+  #       run: |
+  #         echo "PR Number: ${{ github.event.pull_request.number }}"
+  #         gh pr review ${{ github.event.pull_request.number }} --approve -b '@dependabot squash and merge'
+
   build:
     env:
       BUILD_PYTHON_VERSION: '3.8'
