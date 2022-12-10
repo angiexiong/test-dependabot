@@ -59,6 +59,14 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "insecure-package"
+version = "0.1.0"
+description = "Insecure Package, don't use it"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "isort"
 version = "5.10.1"
 description = "A Python utility / library to sort Python imports."
@@ -218,7 +226,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "deaa5ba919498df165c6b51655a5e4c4fa608c34df7c8cbbe34027bb1e9b811c"
+content-hash = "c19b392babea8e14ae53e05f3609797f4609e7760e7abdf827ca42ae50485dae"
 
 [metadata.files]
 astroid = [
@@ -244,6 +252,10 @@ dill = [
 idna = [
     {file = "idna-3.4-py3-none-any.whl", hash = "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"},
     {file = "idna-3.4.tar.gz", hash = "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"},
+]
+insecure-package = [
+    {file = "insecure-package-0.1.0.tar.gz", hash = "sha256:4da7b05a052f19841c1efbd4cc8edea9a78aaaa295360923cb2b052b547b7877"},
+    {file = "insecure_package-0.1.0-py2.py3-none-any.whl", hash = "sha256:4d9485a53c970c892f887e10fd99e97b82848ac9010e79bc715585e1a6a74422"},
 ]
 isort = [
     {file = "isort-5.10.1-py3-none-any.whl", hash = "sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7"},
