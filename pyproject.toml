@@ -11,10 +11,10 @@ python = "^3.8"
 
 
 [tool.poetry.group.dev.dependencies]
-pylint = "^2.14.0"
-pretend-private-package = "^0.2.1"
-insecure-package = "^0.1.0"
-py7zr = "^0.18.0"
+# pylint = "^2.14.0"
+# pretend-private-package = "^0.2.1"
+# insecure-package = "^0.1.0"
+# py7zr = "^0.18.0"
 
 
 [[tool.poetry.source]]
