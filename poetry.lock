@@ -491,13 +491,13 @@ test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.3.1)", "pytest-
 
 [[package]]
 name = "pretend-private-package"
-version = "0.2.2"
+version = "0.2.1"
 description = ""
 category = "dev"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "pretend_private_package-0.2.2-py3-none-any.whl", hash = "sha256:748a1109f33fc2b46193644ad2948639606075e28021cbc2aa179c6ff7f13ff8"},
+    {file = "pretend_private_package-0.2.1-py3-none-any.whl", hash = "sha256:b2742c067fcff09b62735a66623e6cb79a558b5c8d43e3acb76d3f5080f0bafe"},
 ]
 
 [package.dependencies]
@@ -1151,4 +1151,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "0249e3f9fb4aae06275d191b93bf310978711936dfdad26d8c1d154bcb7188c8"
+content-hash = "f927867c32e55519d11c819aeb9af909edf3bc4b885bb101e176ea806308407d"
