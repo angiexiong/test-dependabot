@@ -14,7 +14,7 @@ python = "^3.8"
 pylint = "^2.14.0"
 pretend-private-package = "^0.2.1"
 insecure-package = "^0.1.0"
-py7zr = "^0.18.0"
+py7zr = "^0.20.6"
 
 
 [[tool.poetry.source]]
